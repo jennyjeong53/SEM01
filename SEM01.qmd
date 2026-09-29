@@ -1,0 +1,99 @@
+---
+title: "Article Notes: The Two-Step Approach to Structural Equation Modeling"
+author: "Yujin Jeong"
+date: today
+format:
+  html:
+    toc: true
+    number-sections: true
+    embed-resources: true
+---
+
+# Introduction
+
+- The primary purpose of this article is to advocate for a two-step approach to structural equation modeling (SEM), which separates the evaluation of the measurement model from the structural model.
+- Researchers often struggle to pinpoint the exact cause of poor model fit when evaluating a comprehensive model all at once (the one-step approach).
+- By confirming the measurement model first, researchers can ensure that their latent constructs are valid and reliable before testing the causal theoretical relationships between them.
+
+# Background
+
+## Exploratory Versus Confirmatory Analyses
+
+- Confirmatory analysis is driven by strong a priori theory, where the researcher specifies the exact model structure beforehand and tests how well the data fits that specific model.
+- Exploratory analysis is utilized when theoretical foundations are weak, allowing the data to help drive the model specification to discover a good fit.
+- The authors point out that in actual practice, SEM often falls somewhere in the middle; researchers typically start with a confirmatory approach but engage in exploratory respecification if the initial model fit is unacceptable.
+
+## Complementary Approaches for Theory Testing Versus Predictive Application
+
+- Covariance structure analysis (like LISREL) is primarily designed for theory testing, focusing on understanding the underlying theoretical mechanisms and accurately estimating parameters.
+- In contrast, other methods (such as Partial Least Squares) are more suited for predictive applications where the primary goal is maximizing the variance explained rather than testing structural theory.
+
+## Estimation Methods
+
+- Maximum Likelihood (ML) is highlighted as the most widely used estimation method in SEM because it provides efficient parameter estimates.
+- ML estimation strictly assumes that the observed variables follow a multivariate normal distribution, making data normality a crucial check before analysis.
+
+# Confirmatory Measurement Model
+
+## Need for Unidimensional Measurement
+
+- Achieving unidimensionality is critical because it ensures that a specific set of indicator variables accurately reflects only one underlying latent construct.
+- Without unidimensional measurement, the theoretical meaning of a construct remains ambiguous, making any subsequent structural relationships difficult to interpret.
+- Researchers must evaluate both internal consistency (how closely indicators of the same construct are related) and external consistency (how these indicators relate to indicators of different constructs) to establish a truly unidimensional model.
+
+## Specification
+
+- Model specification requires researchers to rely on strong a priori theory to explicitly define which observed indicators map onto which latent constructs.
+- In a strictly confirmatory measurement model, each indicator should load onto only one specific construct, and the measurement error terms should generally remain uncorrelated to maintain a clean and interpretable model.
+
+## Assessment of Fit
+
+- Assessing the fit of a measurement model involves determining how well the theoretically specified model can reproduce the actual observed covariance matrix of the data.
+- During this stage, researchers must establish convergent validity, which demonstrates that indicators assigned to the same construct share a significant amount of variance.
+- Additionally, discriminant validity must be confirmed to prove that the latent constructs are empirically distinct from one another (e.g., by ensuring the confidence interval around the correlation between two constructs does not include 1.0).
+
+## Respecification
+
+- When an initial measurement model exhibits unacceptable fit, researchers often engage in respecification by removing problematic indicators that cross-load on multiple constructs or have correlated measurement errors.
+- The authors caution that respecification inherently shifts the research from a purely confirmatory mode to an exploratory mode.
+- Because respecification capitalizes on chance characteristics of the specific dataset used, any modified measurement model should ideally be cross-validated using an independent sample to ensure its reliability.
+
+# One-Step Versus Two-Step Modeling Approaches
+
+## The Confirmatory Structural Model
+
+- While the measurement model specifies how observed indicators relate to latent constructs, the structural model specifies the causal relationships and pathways among the latent constructs themselves based on a priori theory.
+- The structural model cannot be meaningfully evaluated until researchers are confident that the latent constructs are accurately and reliably measured.
+
+## Recommended Two-Step Modeling Approach
+
+- The authors strongly advocate for a sequential two-step procedure: researchers must first estimate and evaluate the measurement model before proceeding to test the structural model.
+- In the first step, researchers focus solely on establishing acceptable fit for the measurement model, confirming unidimensionality, convergent validity, and discriminant validity.
+- Only after achieving an acceptable measurement model does the researcher move to the second step, which involves estimating the structural model to evaluate the hypothesized theoretical relationships.
+- This second step allows researchers to assess nomological validity, which tests whether the constructs relate to one another in the exact ways predicted by the underlying theory.
+
+## Advantages of the Two-Step Approach
+
+- A major advantage of separating these steps is diagnostic clarity; when a one-step model fails, it is almost impossible to determine whether the poor fit is caused by flawed measurement tools or incorrect theoretical relationships.
+- The two-step approach prevents the masking effect, where a highly well-fitting measurement model might obscure and compensate for a poorly specified structural model, leading to false conclusions.
+- This approach effectively prevents interpretational confounding, a problematic situation where the empirical meaning of a latent construct shifts depending on the specific structural relationships it is placed within.
+- It provides a systematic framework for comparing alternative structural models using sequential chi-square difference tests, allowing researchers to find the most theoretically sound and parsimonious model.
+
+## Additional Considerations in Structural Model Interpretation
+
+- The authors caution that achieving a good model fit does not definitively prove causality; it simply indicates that the specified model is one plausible representation of the data.
+- Researchers must remain aware of equivalent models—alternative structural arrangements that yield the exact same statistical fit—and rely on strong theoretical justification rather than just empirical fit to defend their final model.
+
+# Conclusion
+
+- Anderson and Gerbing conclude that structural equation modeling is most effective when researchers explicitly separate the evaluation of measurement instruments from the testing of theoretical relationships.
+- Adopting the two-step approach not only improves the rigorousness of construct validation but also provides a more diagnostic and theoretically meaningful way to evaluate causal models in practice.
+
+# References
+
+Anderson, James C., and David W. Gerbing. 1988. “Structural Equation Modeling in Practice: A Review and Recommended Two-Step Approach.” *Psychological Bulletin* 103 (3): 411–423. https://doi.org/10.1037/0033-2909.103.3.411.
+
+# Appendix
+
+- [GitHub Repository](https://github.com/jennyjeong53/SEM01)
+- [Published Article Notes on GitHub Pages](https://jennyjeong53.github.io/SEM01/)

@@ -1,11 +1,11 @@
 {
     "id": "26FC3E86",
-    "path": null,
-    "project_path": null,
+    "path": "~/Desktop/서류/MSDM 대학원/2026 FALL MSDM/IBM 6500/SEM01/SEM01.qmd",
+    "project_path": "SEM01.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "1687012422",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1790652813575.0,
     "source_on_save": false,
     "relative_order": 1,
@@ -22,11 +22,11 @@
         "rmdVisualCollapsedChunks": ""
     },
     "folds": "",
-    "lastKnownWriteTime": 0,
-    "encoding": "",
+    "lastKnownWriteTime": 1790658570,
+    "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1790653456800,
+    "last_content_update": 1790658570090,
     "read_only": false,
     "read_only_alternatives": []
 }
